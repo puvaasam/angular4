@@ -1,0 +1,8 @@
+[
+    { "title": "Learn Angular", "type": "tech", "state":"small" },
+    { "title": "Forrest Gump Reviews", "type": "movie", "state":"small" },
+    { "title": "Yoga Meditation", "type": "lifestyle", "state":"small" },
+    { "title": "What is Promises?", "type": "tech", "state":"small" },
+    { "title": "Star Wars Reviews", "type": "movie", "state":"small" },
+    { "title": "Diving in Komodo", "type": "lifestyle", "state":"small" }
+]

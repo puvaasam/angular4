@@ -1,0 +1,11 @@
+<form #blogPostForm ="ngForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" name="title" placeholder="Title" [(ngModel)]="post.title" required>
+  </div>
+  <div class="form-group">
+    <label for="type">Type</label>
+    <input type="text" class="form-control" name="type" placeholder="Type" [(ngModel)]="post.type" required>
+  </div>
+  <button type="submit" class="btn btn-success" [disabled]="!blogPostForm.form.valid" >Post</button>
+</form>

@@ -1,0 +1,31 @@
+
+<div id="content">
+    <app-title-bar></app-title-bar>
+
+    <div class="container bd-content">
+
+        <h2 id="framework"><a class="anchorjs-link " href="#" aria-label="Anchor link for: framework" data-anchorjs-icon="" 
+            style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+            </a>Framework</h2>
+
+        <p>Examples that focus on implementing uses of built-in components provided by Bootstrap.</p>
+
+        <div class="row bd-examples">
+            <div class="col-6 col-md-4" *ngFor="let product of productList; let idx = index" routerLink="{{idx}}" >
+                <!--<div class="col-6 col-md-4" *ngFor="let product of productList; let idx = index" (click)="onSelectProduct(idx)" >-->
+                <a>
+                  <img class="img-thumbnail" src="{{product?.imageUrl}}" alt="">
+                </a>
+                <h4>{{product?.name}}</h4>
+                <p>{{product?.description}}</p>
+            </div>
+            
+            <!-- <div class="clearfix hidden-md-up"></div>
+            -->
+ 
+        </div>
+        <div class="row bd-examples">
+
+        </div>
+    </div>
+</div>

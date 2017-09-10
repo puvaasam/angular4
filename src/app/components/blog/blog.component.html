@@ -1,0 +1,15 @@
+<div id="content">
+  <app-title-bar></app-title-bar>
+  <div class="container bd-content">
+    <div class="row bd-examples">
+      <!--display posts-->
+      <div class="col-7 col-md-7 blog-posts">
+        <app-post [data]="posts"></app-post>
+      </div>
+      <!--create post-->
+      <div class="col-5 col-md-5">
+        <blog-post-form (invokeUpdatePostfn)="addPosts($event)"></blog-post-form>
+      </div>
+    </div>
+  </div>
+</div>

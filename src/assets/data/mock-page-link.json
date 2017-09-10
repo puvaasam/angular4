@@ -1,0 +1,32 @@
+[
+       {
+           "name":"Product",
+           "description": "Welcome to product, Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
+           "key": "product",
+           "link": "product"
+       },
+        {
+           "name":"Product List",
+           "description": "Welcome to product list page, Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
+           "key": "product-list",
+           "link": "product-list"
+       },
+       {
+           "name":"Example",
+           "description": "Welcome to Example page, Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
+           "key": "example",
+           "link": "example"
+       },
+       {
+           "name":"Blog",
+           "description": "Welcome to Blog page, Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
+           "key": "blog",
+           "link": "blog"
+       },
+       {
+           "name":"Work in progress",
+           "description": "Welcome to Expo page, Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
+           "key": "wip",
+           "link": "wip"
+       }
+   ] 

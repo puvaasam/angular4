@@ -1,0 +1,31 @@
+[{
+    "imageUrl": "../../../assets/image/offcanvas.jpg",
+    "name": "Starter template",
+    "description": "Nothing but the basics: compiled CSS and JavaScript.",
+    "key": "key1"
+},
+{
+    "imageUrl": "../../../assets/image/offcanvas.jpg",
+    "name": "Grids",
+    "description": "Multiple examples of grid layouts with all four tiers, nesting, and more.",
+    "key": "key2"
+},
+{
+    "imageUrl": "../../../assets/image/offcanvas.jpg",
+    "name": "Jumbotron",
+    "description": "Build around the jumbotron with a navbar and some basic grid columns.",
+    "key": "key3"
+},
+{
+    "imageUrl": "../../../assets/image/offcanvas.jpg",
+    "name": "Narrow jumbotron",
+    "description": "Build a more custom page by narrowing the default container and jumbotron.",
+    "key": "key4"
+},
+{
+    "imageUrl": "../../../assets/image/offcanvas.jpg",
+    "name": "Offcanvas",
+    "description": "Build a toggleable off-canvas navigation menu for use with Bootstrap.",
+    "key": "key5"
+}]
+

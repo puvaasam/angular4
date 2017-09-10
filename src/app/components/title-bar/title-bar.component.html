@@ -1,0 +1,10 @@
+<div class="bd-pageheader text-center text-sm-left">
+        <div class="container">
+            <h1>{{activeLink?.name}}</h1>
+            <p class="lead">
+              {{activeLink?.description}}
+             
+            </p>
+           <span *ngIf="rank !== ''" style="color:red">Rank : {{rank}}</span>
+        </div>
+  </div>
