@@ -15,7 +15,6 @@ Python 2.7.
 
 ## Local setup
 
-Clone project from git repository 'git clone http://Ratheesh_K@infygit.ad.infosys.com/Ratheesh_K/ual-cco.git'
 
 Run  'npm install' command to install the dependent node package module for this project
 
